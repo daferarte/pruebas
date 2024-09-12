@@ -1,0 +1,10 @@
+Host githubA
+  HostName github.com
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
+
+# Work account
+Host githubB
+  HostName github.com
+  IdentityFile ~/.ssh/pcucc2
+  IdentitiesOnly yes
